@@ -1,0 +1,14 @@
+Go Methods
+    A method is nothing but a function with a special receiver argument
+Methods are functions
+    Since a method is just a function with a receiver argument
+
+Why Methods instead of Functions?
+    Methods help you write object-oriented style code in Go. Method calls are much easier to read and understand than function calls.
+
+    Moreover, Methods help you avoid naming conflicts. Since a method is tied to a particular receiver, you can have the same method names on different receiver types.
+
+Method definition restrictions
+    Note that, For you to be able to define a method on a receiver, the receiver type must be defined in the same package.
+    Go doesn’t allow you to define a method on a receiver type that is defined in some other package (this includes built-in types such as int as well).
+    In all the previous examples, the structs and the methods were defined in the same package main. Therefore, they worked. However, if you try to define a method on a type defined in some other package, the compiler will complain

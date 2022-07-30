@@ -1,0 +1,24 @@
+Define
+    - A map is an unordered collection of key-value pairs
+
+Declaring a map
+    var m map[string]int
+
+Initializing a map
+    var m = make(map[string]int)
+
+Initializing a map using a map literal
+    var m = map[string]int{
+        "one": 1,
+        "two": 2,
+        "three": 3,
+    }
+Deleting a key from a map
+    delete(map, key)
+
+Maps are reference types
+    Maps are reference types. When you assign a map to a new variable, they both refer to the same underlying data structure. Therefore changes done by one variable will be visible to the other
+
+Iterating over a map
+    You can iterate over a map using range form of the for loop. It gives you the key, value pair in every iteration
+

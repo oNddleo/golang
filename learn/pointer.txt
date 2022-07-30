@@ -1,0 +1,8 @@
+Declaring a Pointer
+    var p *int
+
+Dereferencing a Pointer
+    You can use the * operator on a pointer to access the value stored in the variable that the pointer points to. 
+
+Creating a Pointer using the built-in new() function
+    

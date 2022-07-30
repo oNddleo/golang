@@ -1,0 +1,27 @@
+A slice consists of three things
+    + A pointer (reference) to an underlying array.
+    + The length of the segment of the array that the slice contains.
+    + The capacity (the maximum size up to which the segment can grow).
+
+Creating a slice using the built-in make() function
+// Creates an array of size 10, slices it till index 5, and returns the slice reference
+	s := make([]int, 5, 10)
+
+Zero value of slices
+var s []int
+
+Slice Functions
+    - The copy() function: copying a slice
+    'func copy(dst, src []T) int'
+    - The append() function: appending to a slice
+    'func append(s []T, x ...T) []T'
+    - Appending one slice to another
+        example: 
+            slice1 := []string{"Jack", "John", "Peter"}
+	        slice2 := []string{"Bill", "Mark", "Steve"}
+
+	        slice3 := append(slice1, slice2...)
+Iterating over a slice
+    - Iterating over a slice using for loop
+    - Iterating over a slice using the range form of for loop
+    

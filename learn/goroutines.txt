@@ -1,0 +1,3 @@
+Concurrency
+    - Thực hiện mọi việc đồng thời nhưng trên cùng một core, một progress của CPU
+    - Khác so với parallel, Parallel lại tận dụng đa lõi, thực hiện mọi việc đồng thời, nhưng trên nhiều tiến trình

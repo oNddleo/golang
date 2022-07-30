@@ -1,0 +1,15 @@
+- Declaring Variables
+    var age int = 28
+    var name string = "Nguyen Duc Long"
+    var university string = "Hanoi University of Science and Technology"
+
+    var (
+        age int = 28
+        name string = "Nguyen Duc Long"
+        university string = "Hanoi University of Science and Technology"
+    )
+
+- Short Declaration
+    age := 28
+    name := "Nguyen Duc Long"
+    university := "Hanoi University of Science and Technology"
